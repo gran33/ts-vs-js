@@ -1,0 +1,17 @@
+
+{
+  "name": "ts-vs-js",
+  "version": "1.0.0",
+  "description": "Typescript Analyser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gran33/ts-vs-js"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "Ran Greenberg",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
