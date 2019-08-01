@@ -1,4 +1,3 @@
-
 {
   "name": "ts-vs-js",
   "version": "1.0.0",
@@ -10,8 +9,22 @@
   "main": "index.js",
   "keywords": [],
   "author": "Ran Greenberg",
+  "scripts": {
+    "build": ":",
+    "ts-coverage": "./src/ts-coverage.sh",
+    "ts-coverage-new": "node src/ts-coverage.js",
+    "js-file-list": "find Playground -type f -name \"*.js\" -not -name \"*.test.js\" -not -name \"*.e2e.js\""
+  },
   "dependencies": {
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "globals": {
+    "ts-jest": {
+      "tsConfigFile": "tsconfig.json",
+      "useBabelrc": true
+    }
   }
 }
